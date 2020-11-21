@@ -1,0 +1,546 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.head
+{
+	background-color: #333333;
+	width: 100%;
+	height: 160px; 
+	padding-top: 20px;
+}
+
+.subhead1
+{	
+	display: flex;
+	margin: 20px 15% 20px;
+	color: #ffff;
+}
+
+
+.logo{
+    width: 50%;
+    height: 50px;
+	font-size: 20px;
+    
+}
+
+.logo h1{
+    line-height: 50px;
+}
+
+.search{
+    width: 50%; 
+    height: 50px;
+	text-align: left;
+	padding-right: 10px;
+
+}
+
+.search form{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+
+.subhead2
+{	
+	display: flex;
+	margin: 20px 15% 20px;
+	color: #ffff;
+	background:#232323;
+}
+
+.menu ul{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu ul li a{
+	padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.card
+{
+    overflow: hidden;
+	height: auto;
+	margin: 20px 15% 20px;
+}
+
+.upperBody
+{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.ufirst
+{	
+	background:#464646 ;
+	color: #a3a09d;
+	width: 40%;
+	height: auto;
+	padding-bottom: 20px;		
+}
+
+.ufirst h1
+{
+	padding: 20px 20px 0 20px;
+}
+
+.ufirst p
+{
+	padding: 20px 20px 30px 20px;
+}
+
+.ufirst a
+{
+	color: #ffb203;
+	text-decoration: none;
+	padding-left: 230px;
+}
+
+.usecond
+{
+	background:#333333 ;
+	color: #ffffff;
+	width: 60%;
+	height: auto;
+}
+
+
+.middleBody
+{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.mfirst
+{
+	width: 50%;
+	height: auto;
+	color: #898590;
+}
+
+.mfirst h3
+{
+	padding: 20px 20px 0 0;
+	font-size: 25px;
+
+}
+
+
+.mfirst p
+{
+	padding: 20px 20px 0 0;
+	font-size: 14px;
+
+}
+
+.mfirst span
+{
+	color: #ffb203;
+}
+
+.msecond
+{ 	
+	width: 50%;
+	height: auto;
+}
+
+.gallery{
+	display: flex;
+	padding: 35px 20px 25px 0px;
+}
+
+.gallery img
+{
+	width: 130px;
+	height: 130px;	 
+	border: 4px solid #ffffff;
+	box-shadow: 0 0 1px 1px #999; 
+}
+
+.msecond a{
+	color: #ffb203;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 180px;
+}
+
+
+.lowerBody
+{
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+}
+
+.lfirst
+{
+	color: #8c7d7b;
+	width: 25%;
+	height: auto;
+}
+
+.lfirst h3
+{
+	padding-bottom:20px;
+}
+
+.lfirst h4
+{
+	padding-bottom:5px;
+}
+
+.lfirst span
+{
+	color: #ffb203;
+}
+
+.lfirst a
+{
+	color: #ffb203;
+	text-decoration: none;
+	
+}
+
+.lsecond
+{
+	color: #8c7d7b;
+	width: 25%;
+	height: auto;
+	padding-left: 20px;	
+}
+
+
+.lsecond h3
+{
+	padding-bottom:20px;
+	padding-left: 10px;
+}
+
+.lsecond a
+{
+	color: #ffb203;
+	text-decoration: none;
+
+}
+
+.lsecond ul
+{
+	list-style-type: none;
+}
+
+.lsecond li
+{
+	padding: 10px;
+}
+
+.lthird{	
+    display: flex;
+    color: #8c7d7b;
+    width: 50%;
+    height: auto;
+}
+
+.lthird h3{
+    padding-bottom:20px;
+	margin-left:15px; 
+}
+
+.lthird img{
+ 	width: 130px;
+	height: 130px;	
+	margin-top: 15px;
+	margin-left: 15px; 
+	border: 4px solid #ffffff;
+	box-shadow: 0 0 1px 1px #999; 
+}
+
+.lthird p{
+ 	margin:55px 0 30px 20px;
+}
+
+.lthird a{
+ 	color: #ffb203;
+	text-decoration: none;
+	padding: 10px 10px 10px 250px;
+}
+
+.footer{
+	padding-top: 30px;
+	padding-left: 225px;
+	width: 100%;
+	height: 50px;
+	background-color: #333333;
+	color: #ffffff;
+
+}
+
+@media (max-width: 700px) {
+
+
+	.head
+	{
+		
+		width: 100%;
+		height: auto; 
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.subhead1
+	{	
+		display: block;
+		margin: 20px 10% 20px;
+		
+	}
+
+	.logo
+	{	
+	width: 100%;
+	text-align: center;	
+	font-size: 15px;
+	padding: 0;
+
+	}
+
+	.logo h1{
+    line-height: 45px;
+	padding: 0;
+	}
+
+	.search{
+
+    width: 100%; 
+	text-align: center;
+	padding-right: 10px;
+
+	}
+
+	.search form{
+	padding-top: 10px; 	
+    width: 100%;
+    height: 50px;
+    display: block;
+   
+	}
+
+
+	.subhead2
+{	
+	display: block;
+	margin: 20px 10% 20px;
+	color: #ffff;
+	text-align: center;
+}
+
+.menu ul{
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items:  center;
+}
+
+.menu ul li{
+	padding: 5px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu ul li a{
+	padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+	
+
+
+
+.card
+{
+    overflow: hidden;
+	height: auto;
+	margin: 20px 15% 20px;
+}
+
+.upperBody
+{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.ufirst
+{	
+	width: 100%;
+	height: auto;		
+}
+
+.ufirst h1
+{	font-size: 24px;
+	padding: 20px 20px 0 20px;
+}
+
+.ufirst p
+{   font-size: 16px;
+	padding: 20px 20px 30px 20px;
+}
+
+.ufirst a
+{	font-size: 16px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.usecond
+{
+	width: 60%;
+	height: auto;
+}
+
+
+.middleBody
+{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.mfirst
+{
+	width: 100%;
+	height: auto;
+}
+
+.mfirst h3
+{
+	padding: 20px 10% 0 10%;
+	font-size: 25px;
+
+}
+
+
+.mfirst p
+{
+	padding: 20px 10% 0 10%;
+	font-size: 14px;
+
+}
+
+.msecond
+{ 	
+	width: 100%;
+	height: auto;
+}
+
+.gallery{
+	display: block;
+	padding: 35px 20% 25px 20%;
+}
+
+.msecond a{
+	font-size: 12px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+.lowerBody
+{
+	display: block;
+	width: 100%;
+	height: auto;
+	
+}
+
+.lfirst
+{
+	width: 100%;
+	height: auto;
+}
+
+.lfirst h3
+{
+	padding:10px 10% 20px 10%;
+}
+
+.lfirst h4
+{
+	padding-bottom:5px;
+}
+
+
+.lsecond
+{
+	width: 100%;
+	height: auto;
+	padding-left: 10%;
+	padding-right: 10%;	
+}
+
+.lsecond li
+{
+	padding: 10px;
+}
+
+.lthird{
+	
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.lthird h3{
+    padding-bottom:20px;
+	margin-left:15%; 
+	margin-right:15%; 
+}
+
+.lthird img{	
+	margin-left: 15%;
+	margin-right: 15%; 
+}
+
+.lthird p{
+ 	margin:55px 10% 30px 10%;
+}
+
+.lthird a{
+ 	
+	padding: 10px 10% 10px 10%;
+}
+
+.footer{
+	font-size: 14px;
+	padding-top: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
+	}
+
+
+
+}

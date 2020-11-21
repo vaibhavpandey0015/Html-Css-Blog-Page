@@ -1,0 +1,188 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.top{
+	width: 100%;
+	height: auto;
+	background-image: url('../images/test.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom:30px; 
+}
+.contain{
+	padding:0 5% 0 5%;
+	color: #ffffff;
+}
+.nav-bar{
+	display: flex;
+}
+.logo img{
+	margin-top: 100px; 
+	margin-left: 50px;
+	width: 200px;
+	height: auto;
+}
+.menu{
+	padding-top: 130px;
+	padding-left: 130px; 
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+}
+.menu ul li{
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.menu ul li a{
+	padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+	transform: 0.5s;
+    text-decoration: underline;
+}
+.heading h1{
+	margin: 60px 20px 10px 100px;
+	font-size: 80px;
+}
+.heading span{
+	color: #f41963;
+}
+.heading h3{
+	margin: 20px 20px 10px 100px;
+	font-size: 25px;
+}
+.position{
+	margin: 20px 20px 10px 100px;
+	display: flex;
+}
+.position img{
+	margin: 10px;
+	height: 50px;
+	width: 50px;
+	background: #f41963;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+	border-radius: 50%;
+}
+.form-card{
+	width: 400px;
+	height: auto;
+	text-align: center;
+	background: #f41963;
+	color: #ffffff; 
+	display: block;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+	border-radius: 10px; 
+	margin: -200px 10% 50px 60%; 	
+}
+.form-header h3{
+	padding: 20px 10% 10px 10%;
+	font-size: 35px;
+}
+.form-header p{
+	padding: 0 10% 10px 10%;
+	font-size: 18px;
+}
+.myform input[type=text] {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 10px;
+  color: #bbb8b6;
+}
+.myform input[type=email] {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 10px;
+  color: #bbb8b6;
+}
+.myform select {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 40%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
+  color: #000000;
+}
+.myform input[type=file] {
+  display: none;
+}
+.myform label{
+  background-color: #ffffff;
+  padding: 15px 7% 15px 7%;
+  width: 40%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 10px;
+  font-weight: bold;
+  color: #000000;
+}
+.myform input[type=submit] {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 10px 10px 20px 10px ;
+}
+.myform input[type=submit]:hover {
+  background: #888586;
+}
+.some-data{
+	width: 400px;
+	height: auto;
+	margin: -300px 10% 50px 12%;
+}
+.some-data h1{
+	color: #f41963;
+}
+.some-data p{
+	margin: 5px 0 5px 40px;
+}
+.about-us-area{
+	margin-top: 100px;
+	width: 100%;
+	height: auto;
+	background: #f41963;
+}
+.about-us{
+	width: 600px;
+	padding: 30px 0 60px 190px;  
+	color: #ffffff;
+}
+.about-us h2{
+	color: #000000;
+	padding-bottom: 20px;
+}
+.ffooter{
+	display: flex;
+}
+
+.flogo img{
+	width: 100px;
+	padding: 10px 10px 10px 100px;
+}
+
+.ffooter h3{
+    margin: 20px 30px 20px 950px;
+}
